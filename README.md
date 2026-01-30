@@ -148,7 +148,7 @@ ffmpeg -hwaccels
 ffmpeg -encoders | grep nvenc
 ```
 
-You should see output listing NVIDIA encoders like:
+You should see output listing NVIDIA encoders:
 - `h264_nvenc`
 - `hevc_nvenc`
 - `av1_nvenc` (if supported by your GPU)
